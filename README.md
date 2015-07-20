@@ -22,11 +22,11 @@ On the links above you'll find the necessary documentation to install each one o
 Within the download you'll find the following files. You'll see something like this:
 
 ```
-??? vagrant
-  ??? tournament
-    ??? tournament.py
-    ??? tournament.sql
-    ??? tournament_test.py
+|-- vagrant
+  |-- tournament
+    |-- tournament.py
+    |-- tournament.sql
+    |-- tournament_test.py
 ```
 
 ### Running the application test
@@ -42,13 +42,13 @@ Within the download you'll find the following files. You'll see something like t
 ```$ \q```
 5. Run this command to run the application test:
 ```$ python /vagrant/tournament/tournament_test.py```
-6. If everything is fine, You will see this.
-```1. Old matches can be deleted.
-2. Player records can be deleted.
-3. After deleting, count_players() returns zero.
-4. After registering a player, count_players() returns 1.
-5. Players can be registered and deleted.
-6. Newly registered players appear in the standings with no matches.
-7. After a match, players have updated standings.
-8. After one match, players with one win are paired.
-Success!  All tests pass!```
+6. If everything is fine, You will see this.  
+```1. Old matches can be deleted.```
+```2. Player records can be deleted.```
+```3. After deleting, count_players() returns zero.```
+```4. After registering a player, count_players() returns 1.```
+```5. Players can be registered and deleted.```
+```6. Newly registered players appear in the standings with no matches.```
+```7. After a match, players have updated standings.```
+```8. After one match, players with one win are paired.```
+```Success!  All tests pass!```
